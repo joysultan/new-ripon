@@ -1,0 +1,94 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+/* top banner star */
+
+h1{
+    font-size: 40px;
+}
+.top-banner{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+   
+
+}
+.orange-color{
+    color: orange;
+
+}
+.top-banner{
+   display: flex;
+
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+
+}
+.half-width img{
+    width: 90%;
+
+}
+.half-width a{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+
+
+}
+/* top banner end */
+
+
+/* dream big start */
+
+.dream-big{
+    display: flex;
+    margin-top: 120px;
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 10%;
+}
+/* dream big end */
+
+/* experiences start */
+.experience{
+    display: flex;
+    margin-bottom: 60px;
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.developer{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 20px;
+    border-left: 7px solid blue;
+}
+.developer h2{
+    font-size: 40px;
+}
+.border{
+    border-left: 7px solid orange;
+}
+.c-margin{
+    margin-left: 120px;
+}
+
+/* experiences end */
+/* footer start */
+footer{
+    text-align: center;
+    
+    
+}
+.block{}
+.block img{}
+/* footer end */
+
