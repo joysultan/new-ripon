@@ -38,8 +38,12 @@ h1{
     padding: 10px 40px;
     border-radius: 5px;
     font-weight: 700;
+    transition: .3s all ease-in;
 
 
+}
+.half-width a:hover{
+    background-image: linear-gradient(#87CEEB,lightpink);;
 }
 /* top banner end */
 
@@ -62,7 +66,9 @@ h1{
     margin-bottom: 60px;
     background-image: url(img/exp-bg.png);
     background-repeat: no-repeat;
+   
 }
+
 .developer{
     width: 40%;
     margin-left: 5%;
@@ -70,6 +76,10 @@ h1{
     box-shadow: 10px 10px 40px gray;
     padding: 20px;
     border-left: 7px solid blue;
+    transition: .3s all ease-in;
+}
+.developer:hover{
+    box-shadow: 0px 10px 40px rgb(0 0 0 / 10%);
 }
 .developer h2{
     font-size: 40px;
